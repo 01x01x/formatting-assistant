@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "source": "source.docx",
+  "final": "formatted.docx",
+  "scope": "all",
+  "loose_requested": false,
+  "input_kind": "docx",
+  "scope_description": "Main document in stored order, table row/cell boundaries, referenced footnotes/endnotes, headers/footers, comments and comment anchors; supported hyperlinks, image bytes and OMML. Layout/rendering, generated field results, numbering labels and complex objects are not proven equivalent.",
+  "status": "PASS",
+  "exit_code": 0,
+  "strict_equal": true,
+  "whitespace_ignoring_equal": null,
+  "source_summary": {
+    "checked_representation_sha256": "e12ce19aa560172adf2ea0ff2333918770a1a7801bf50a964fceb1cecff28684",
+    "included_parts": [
+      "word/document.xml",
+      "word/header1.xml",
+      "word/footer1.xml"
+    ],
+    "counts": {
+      "paragraphs": 23,
+      "tables": 1,
+      "images": 0,
+      "hyperlinks": 0,
+      "equations": 1,
+      "fields": 0
+    },
+    "warnings": [],
+    "derived_fields": []
+  },
+  "final_summary": {
+    "checked_representation_sha256": "e12ce19aa560172adf2ea0ff2333918770a1a7801bf50a964fceb1cecff28684",
+    "included_parts": [
+      "word/document.xml",
+      "word/header1.xml",
+      "word/footer1.xml"
+    ],
+    "counts": {
+      "paragraphs": 23,
+      "tables": 1,
+      "images": 0,
+      "hyperlinks": 0,
+      "equations": 1,
+      "fields": 0
+    },
+    "warnings": [],
+    "derived_fields": []
+  },
+  "warnings": [],
+  "derived_field_records_changed": false,
+  "diff_preview": [],
+  "diff_preview_limit_lines": 240
+}

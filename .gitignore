@@ -1,0 +1,22 @@
+# Python environments and caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Generated regression fixtures and reports
+word-format-tests/fixtures/
+word-format-tests/regression-results.json
+demo-new/
+
+# Temporary files and Office locks
+~$*
+*.log
+*.tmp
+*.temp
+*.bak
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

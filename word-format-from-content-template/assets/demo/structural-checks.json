@@ -1,0 +1,16 @@
+{
+  "fixture_only": true,
+  "input_hashes": {
+    "source.docx": "3c4a1aca5c235479d5e43253f1b9d486669fb72e69932c388223179de9531023",
+    "template.docx": "17f769750ae138670c2f1abbf5265b827f9eec0051a0cc854cbea4fd1035e9c8",
+    "format-rules.md": "17c3aeb383d71348338bd18a95cec82bb7022e5d2b5e9d9ec177f680e6e8cae5"
+  },
+  "inputs_unchanged": true,
+  "template_residue_absent": true,
+  "page_width_mm": 210.01,
+  "page_height_mm": 297.0,
+  "table_count": 1,
+  "equation_count": 1,
+  "text_comparison": "Run scripts/compare_text.py source.docx formatted.docx --report comparison.json separately.",
+  "visual_review": "Not asserted by this builder; render and inspect separately."
+}

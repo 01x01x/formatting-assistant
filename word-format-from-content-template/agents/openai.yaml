@@ -1,0 +1,7 @@
+interface:
+  display_name: "排版助手"
+  short_description: "依据格式规范、文字要求或可选模板排版 Word，保护原稿内容并说明验收范围"
+  default_prompt: "请使用排版助手 $word-format-from-content-template，根据我提供的排版依据处理原稿；有模板则沿用其有效结构，保留原文与文档对象并说明实际验收范围。"
+
+policy:
+  allow_implicit_invocation: true

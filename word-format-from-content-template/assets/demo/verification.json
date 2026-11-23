@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-23",
+  "synthetic_demo": true,
+  "scope": "This example only; not a guarantee for arbitrary templates.",
+  "source_sha256": "3c4a1aca5c235479d5e43253f1b9d486669fb72e69932c388223179de9531023",
+  "template_sha256": "17f769750ae138670c2f1abbf5265b827f9eec0051a0cc854cbea4fd1035e9c8",
+  "formatted_sha256": "87dbcd932df40b5c26de39d1cf7655b777c775d45b0ccee7e85d62f3de7e8e08",
+  "content_comparison": {
+    "status": "PASS",
+    "scope": "all",
+    "strict_equal": true
+  },
+  "visual_review": {
+    "status": "reviewed",
+    "pages": 1,
+    "all_pages_inspected": true,
+    "renderer": "Microsoft Word PDF export, then PNG rendering",
+    "notes": "Title border residue removed; no clipping, overlap, missing glyphs or broken table found in the final page."
+  },
+  "supported_features_demonstrated": [
+    "Chinese and Latin text",
+    "meaningful spaces and punctuation",
+    "one 4-by-3 table",
+    "one native OMML equation",
+    "fixed header and footer",
+    "template sample replacement"
+  ],
+  "fields_and_automatic_numbering": "Not present in this demo; separate regression cases cover review/difference behavior, not visual refresh."
+}

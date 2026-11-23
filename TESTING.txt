@@ -1,0 +1,5 @@
+Run content-comparison regressions from an extracted, writable folder:
+python -X utf8 word-format-tests/test_compare_text.py
+The tests create only synthetic fixtures, including hard links to verify input protection.
+The demo includes explicit rules and does not represent the user default profile.
+Console-only character escapes do not change the lossless UTF-8 JSON audit reports.

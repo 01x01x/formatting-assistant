@@ -1,0 +1,1 @@
+请用 $word-format-from-content-template 将 source.docx 按 format-rules.md 排入 template.docx，输出到你自己的新文件名。只调整格式，保留原稿所有文字、表格和原生公式。不要覆盖输入；请做内容核对和逐页视觉检查。
