@@ -26,7 +26,7 @@
 把下面这句话发给 Codex：
 
 ```text
-请安装 https://github.com/01x01x/paiban-assistant 中的 word-format-from-content-template skill。
+请安装 https://github.com/01x01x/formatting-assistant 中的 word-format-from-content-template skill。
 ```
 
 也可以下载本仓库的 [排版助手.zip](排版助手.zip)，告诉 Codex 文件保存的位置，让它从压缩包中安装 `word-format-from-content-template` 技能。安装后，按 Codex 的实际提示确认技能可用。
